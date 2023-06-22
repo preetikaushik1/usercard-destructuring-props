@@ -1,7 +1,7 @@
 
 import girlimg from '../Assets/Image/girl-img.jfif'
 
-const Card = ({name , profession}) => {
+const Card = ({name , profession ,about}) => {
   return(
     <>
       <div className="outerbox">
@@ -10,10 +10,7 @@ const Card = ({name , profession}) => {
        </div>
        <h2 >{name}</h2>
        <h2 className="h2">{profession}</h2>
-       <p>It takes monumental improvement for
-         us to change how we live our lives.
-         Design is the way we access that improvement.
-       </p>
+       <p>{about}       </p>
        <div className="iconbox">
         <span><i className="fa fa-instagram" aria-hidden="true"></i></span>
         <span><i className="fa fa-linkedin" aria-hidden="true"></i></span>

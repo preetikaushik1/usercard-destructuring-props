@@ -5,7 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Card name="John Doe"  profession="Ui/Ux Developer"/>
+      <Card name="Preeti Kaushik"  profession="Ui/Ux Developer" about="It takes monumental improvement for
+         us to change how we live our lives.
+         Design is the way we access that improvement.
+"/>
       </header>
     </div>
   );
